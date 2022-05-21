@@ -1,0 +1,22 @@
+<apex:page standardController="Order__c"  recordSetVar="ords">
+    <apex:pageBlock >
+            
+       <apex:pageBlockSection title="Order Info" columns="1">
+     <apex:pageblocktable value="{!ords}" var="ord">
+   
+         <apex:column value="{!ord.Customer_Name__c}"/>
+         <apex:column value="{!ord.Quantity__c}"/>  
+          <apex:column value="{!ord.Status__c}"/> 
+           <apex:column value="{!ord.Total_Price__c}"/>
+         <apex:column > 
+                 <apex:outputLink value="{!URLfor($Action.Order__c.Edit,ord.id)}">Edit</apex:outputLink>
+          </apex:column>
+           <apex:column > 
+                 <apex:outputLink value="{!URLfor($Action.Order__c.Delete,ord.id)}">Delete</apex:outputLink>
+          </apex:column>
+ </apex:pageblocktable>
+ 
+     </apex:pageBlockSection>
+
+    </apex:pageBlock>   
+</apex:page>

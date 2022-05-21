@@ -1,0 +1,23 @@
+<apex:page standardController="Product__c">
+    
+    <apex:form >
+ <apex:pageblock title="Add Product">
+   <apex:pageBlockSection >
+     <apex:inputField value="{!Product__c.Name}"/>
+      <apex:inputField value="{!Product__c.Cost__c}"/>
+     <apex:inputField value="{!Product__c.List_Of_Category__c}"/>
+     <apex:inputField value="{!Product__c.List_Of_Brands__c}"/>
+     <apex:inputField value="{!Product__c.List_of_Models__c}"/>
+     <apex:inputField value="{!Product__c.Units_Available__c}"/>
+     <apex:inputField value="{!Product__c.Status__c}"/> 
+   </apex:pageBlockSection>
+   <apex:pageblockbuttons >
+           <apex:commandButton value="Save" action="{!save}"/>
+           <apex:commandButton value="cancel" action="{!cancel}"/>
+   
+   </apex:pageblockbuttons>
+ 
+ </apex:pageblock> 
+ </apex:form>
+    
+</apex:page>

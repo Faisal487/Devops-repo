@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Product_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>List_Of_Brands__c</fullName>
+        <externalId>false</externalId>
+        <label>List Of Brands</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>List_Of_Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Samsung</fullName>
+                    <default>false</default>
+                    <label>Samsung</label>
+                </value>
+                <value>
+                    <fullName>Redmi</fullName>
+                    <default>false</default>
+                    <label>Redmi</label>
+                </value>
+                <value>
+                    <fullName>Vivo</fullName>
+                    <default>false</default>
+                    <label>Vivo</label>
+                </value>
+                <value>
+                    <fullName>Poco</fullName>
+                    <default>false</default>
+                    <label>Poco</label>
+                </value>
+                <value>
+                    <fullName>Levi&apos;s</fullName>
+                    <default>false</default>
+                    <label>Levi&apos;s</label>
+                </value>
+                <value>
+                    <fullName>Gucci</fullName>
+                    <default>false</default>
+                    <label>Gucci</label>
+                </value>
+                <value>
+                    <fullName>Nike</fullName>
+                    <default>false</default>
+                    <label>Nike</label>
+                </value>
+                <value>
+                    <fullName>Puma</fullName>
+                    <default>false</default>
+                    <label>Puma</label>
+                </value>
+                <value>
+                    <fullName>Whirlpool</fullName>
+                    <default>false</default>
+                    <label>Whirlpool</label>
+                </value>
+                <value>
+                    <fullName>Haier</fullName>
+                    <default>false</default>
+                    <label>Haier</label>
+                </value>
+                <value>
+                    <fullName>Voltas</fullName>
+                    <default>false</default>
+                    <label>Voltas</label>
+                </value>
+                <value>
+                    <fullName>LG</fullName>
+                    <default>false</default>
+                    <label>LG</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>Reebok</fullName>
+                    <default>false</default>
+                    <label>Reebok</label>
+                </value>
+                <value>
+                    <fullName>Sparx</fullName>
+                    <default>false</default>
+                    <label>Sparx</label>
+                </value>
+                <value>
+                    <fullName>Red Tape</fullName>
+                    <default>false</default>
+                    <label>Red Tape</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Mobile</controllingFieldValue>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Samsung</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobile</controllingFieldValue>
+                <valueName>Redmi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobile</controllingFieldValue>
+                <valueName>Vivo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobile</controllingFieldValue>
+                <valueName>Poco</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clothes</controllingFieldValue>
+                <valueName>Levi&apos;s</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clothes</controllingFieldValue>
+                <valueName>Gucci</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clothes</controllingFieldValue>
+                <controllingFieldValue>Shoes</controllingFieldValue>
+                <valueName>Nike</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clothes</controllingFieldValue>
+                <controllingFieldValue>Shoes</controllingFieldValue>
+                <valueName>Puma</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Whirlpool</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Haier</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Voltas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>LG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>Hitachi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shoes</controllingFieldValue>
+                <valueName>Reebok</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shoes</controllingFieldValue>
+                <valueName>Sparx</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shoes</controllingFieldValue>
+                <valueName>Red Tape</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>List_Of_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>List Of Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Clothes</fullName>
+                    <default>false</default>
+                    <label>Clothes</label>
+                </value>
+                <value>
+                    <fullName>Electronics</fullName>
+                    <default>false</default>
+                    <label>Electronics</label>
+                </value>
+                <value>
+                    <fullName>Shoes</fullName>
+                    <default>false</default>
+                    <label>Shoes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>List_of_Models__c</fullName>
+        <externalId>false</externalId>
+        <label>List of Models</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>List_Of_Brands__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Redmi 9 Pro</fullName>
+                    <default>false</default>
+                    <label>Redmi 9 Pro</label>
+                </value>
+                <value>
+                    <fullName>Poco C31</fullName>
+                    <default>false</default>
+                    <label>Poco C31</label>
+                </value>
+                <value>
+                    <fullName>Redmi 9A</fullName>
+                    <default>false</default>
+                    <label>Redmi 9A</label>
+                </value>
+                <value>
+                    <fullName>Vivo x80</fullName>
+                    <default>false</default>
+                    <label>Vivo x80</label>
+                </value>
+                <value>
+                    <fullName>Motorola G12</fullName>
+                    <default>false</default>
+                    <label>Motorola G12</label>
+                </value>
+                <value>
+                    <fullName>Samsung Galaxy  S9</fullName>
+                    <default>false</default>
+                    <label>Samsung Galaxy  S9</label>
+                </value>
+                <value>
+                    <fullName>Levi&apos;s Jeans</fullName>
+                    <default>false</default>
+                    <label>Levi&apos;s Jeans</label>
+                </value>
+                <value>
+                    <fullName>Gucci Trousers</fullName>
+                    <default>false</default>
+                    <label>Gucci Trousers</label>
+                </value>
+                <value>
+                    <fullName>Nike Tshirts</fullName>
+                    <default>false</default>
+                    <label>Nike Tshirts</label>
+                </value>
+                <value>
+                    <fullName>Puma Shorts</fullName>
+                    <default>false</default>
+                    <label>Puma Shorts</label>
+                </value>
+                <value>
+                    <fullName>Samsung 38L Double Door Refrigerator</fullName>
+                    <default>false</default>
+                    <label>Samsung 38L Double Door Refrigerator</label>
+                </value>
+                <value>
+                    <fullName>Samsung Led Tv</fullName>
+                    <default>false</default>
+                    <label>Samsung Led Tv</label>
+                </value>
+                <value>
+                    <fullName>Voltas Window Ac</fullName>
+                    <default>false</default>
+                    <label>Voltas Window Ac</label>
+                </value>
+                <value>
+                    <fullName>Haier Washing Machine</fullName>
+                    <default>false</default>
+                    <label>Haier Washing Machine</label>
+                </value>
+                <value>
+                    <fullName>Whirlpool 190L Single Door Refrigerator</fullName>
+                    <default>false</default>
+                    <label>Whirlpool 190L Single Door Refrigerator</label>
+                </value>
+                <value>
+                    <fullName>LG Water Cooler</fullName>
+                    <default>false</default>
+                    <label>LG Water Cooler</label>
+                </value>
+                <value>
+                    <fullName>Hitachi Split Ac</fullName>
+                    <default>false</default>
+                    <label>Hitachi Split Ac</label>
+                </value>
+                <value>
+                    <fullName>Nike Air Max 1</fullName>
+                    <default>false</default>
+                    <label>Nike Air Max 1</label>
+                </value>
+                <value>
+                    <fullName>Nike Air Jordan 1</fullName>
+                    <default>false</default>
+                    <label>Nike Air Jordan 1</label>
+                </value>
+                <value>
+                    <fullName>Sparx Men-432</fullName>
+                    <default>false</default>
+                    <label>Sparx Men-432</label>
+                </value>
+                <value>
+                    <fullName>Red Tape Derby sneakers</fullName>
+                    <default>false</default>
+                    <label>Red Tape Derby sneakers</label>
+                </value>
+                <value>
+                    <fullName>Puma Valiant Running shoes</fullName>
+                    <default>false</default>
+                    <label>Puma Valiant Running shoes</label>
+                </value>
+                <value>
+                    <fullName>Puma Propel shoes</fullName>
+                    <default>false</default>
+                    <label>Puma Propel shoes</label>
+                </value>
+                <value>
+                    <fullName>Rebook walking shoes</fullName>
+                    <default>false</default>
+                    <label>Rebook walking shoes</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Puma</controllingFieldValue>
+                <valueName>Puma Shorts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Puma</controllingFieldValue>
+                <valueName>Puma Propel shoes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Whirlpool</controllingFieldValue>
+                <valueName>Whirlpool 190L Single Door Refrigerator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Haier</controllingFieldValue>
+                <valueName>Haier Washing Machine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Voltas</controllingFieldValue>
+                <valueName>Voltas Window Ac</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LG</controllingFieldValue>
+                <valueName>LG Water Cooler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hitachi</controllingFieldValue>
+                <valueName>Hitachi Split Ac</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reebok</controllingFieldValue>
+                <valueName>Rebook walking shoes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sparx</controllingFieldValue>
+                <valueName>Sparx Men-432</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Tape</controllingFieldValue>
+                <valueName>Red Tape Derby sneakers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Samsung</controllingFieldValue>
+                <valueName>Samsung Galaxy  S9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Samsung</controllingFieldValue>
+                <valueName>Samsung 38L Double Door Refrigerator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Samsung</controllingFieldValue>
+                <valueName>Samsung Led Tv</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Redmi</controllingFieldValue>
+                <valueName>Redmi 9 Pro</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Redmi</controllingFieldValue>
+                <valueName>Redmi 9A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vivo</controllingFieldValue>
+                <valueName>Vivo x80</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poco</controllingFieldValue>
+                <valueName>Poco C31</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Levi&apos;s</controllingFieldValue>
+                <valueName>Levi&apos;s Jeans</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Gucci</controllingFieldValue>
+                <valueName>Gucci Trousers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nike</controllingFieldValue>
+                <valueName>Nike Tshirts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nike</controllingFieldValue>
+                <valueName>Nike Air Max 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nike</controllingFieldValue>
+                <valueName>Nike Air Jordan 1</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Units_Available__c</fullName>
+        <externalId>false</externalId>
+        <label>Units Available</label>
+        <precision>10</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Product</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Product Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Rule_1_Dup</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+   ISNEW(),
+  Not( ISBLANK(VLOOKUP($ObjectType.Product__c.Fields.Name, $ObjectType.Product__c.Fields.Name  , Name ))) 
+)</errorConditionFormula>
+        <errorMessage>This product is already there!</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
